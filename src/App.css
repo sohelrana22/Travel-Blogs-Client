@@ -11,10 +11,21 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+.blog{
+  background-color: aqua;
+}
+.blog-home{
+  background-color: #0b64a0;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
 footer{
   position: relative;
   width: 100%;
-  background-color: #0e3742ec;
+  background-color: #1b4e5cec;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;

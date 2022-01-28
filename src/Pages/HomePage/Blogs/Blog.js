@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import useravater from "../../../img/useravater.png";
 const Blog = ({ blog }) => {
   return (
-    <Link to={`/viewblog/${blog._id}`}>
-      <div className="md:p-8 p-2 bg-white">
+   <div>
+      <Link to={`/viewblog/${blog._id}`}>
+      <div className="md:p-8 p-2 bg-white blog">
         <img
           className="rounded-lg w-full h-64"
           style={{ objectFit: "cover" }}
@@ -31,6 +32,7 @@ const Blog = ({ blog }) => {
         </div>
       </div>
     </Link>
+   </div>
   );
 };
 

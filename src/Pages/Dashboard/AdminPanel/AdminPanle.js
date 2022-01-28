@@ -17,7 +17,7 @@ const AdminPanle = () => {
                   to="/"
                   className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
                 >
-                  <span className="font-bold">Admin Panel</span>
+                  <span className="font-bold">Go To Home</span>
                 </NavLink>
               </div>
               {/* <!-- primary nav --> */}
